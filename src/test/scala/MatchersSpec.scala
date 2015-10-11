@@ -1,6 +1,6 @@
 import org.specs2.mutable.Specification
 
-class Matchers extends Specification {
+class MatchersSpec extends Specification {
   "Equality" >> {
     "must beEqualTo" >> {
       1 must beEqualTo(1)
